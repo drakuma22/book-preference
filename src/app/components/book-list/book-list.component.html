@@ -1,0 +1,5 @@
+<div *ngIf="books">
+    <div *ngFor="let book of books; index as i">
+        <app-book-list-item [book]="book"></app-book-list-item>
+    </div>
+</div>
